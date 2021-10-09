@@ -1,0 +1,150 @@
+body {
+	background-color:#f2e7e1;
+	color: black;
+	font-family: helvetica;
+	text-justify: center;
+	font-weight: lighter;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Courier Prime', monospace;
+}
+
+h1 {
+	color: #8c5d62;
+	font-weight: lighter;
+	font-style: italic;
+	font-weight: 700;
+	letter-spacing: 2px;
+	font-size: 40px;
+}
+
+h2, h3, h4, h5, h6{
+	color: #8c5d62;
+	font-weight: 400;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+a {
+	font-family: 'Courier Prime', monospace;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 16p;
+	color: #8c5d62;
+}
+a:hover {
+	color: black;
+}
+
+
+#logo {
+	width: 250px;
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+
+.img-rectoa {
+	width: 250px;
+	margin: 0px auto;
+	border-radius: 5px;
+	border-color: black;
+}
+
+.img-losa {
+		width: 220px;
+		margin: 0px auto;
+		border-radius: 5px;
+		border-color: black;
+	}
+
+.img-car {
+	width: 300px;
+	margin-bottom: 10px;
+	margin: 0px auto;
+	border-radius: 5px;
+	border-color: black;
+}
+
+
+/* Custom design with class*/
+
+.container {
+	width: 760px;
+	margin: 600px auto;
+}
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px;
+		}
+}
+
+
+@media(max-width: 500px) {
+	.container {
+		width: 400px;
+		}
+}
+
+
+.card-white {
+	background: white;
+	padding: 40px;
+	margin: 50px;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.btn-white {
+	background: #f2e7e1;
+	padding: 10px 15px;
+	border-radius: 15px;
+	box-shadow: 0px 15px 15px rgb(0 0 0 / 10%);
+}
+
+.btn-white:hover {
+	background-color:#8c5d62;
+	color: white;
+} 
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #8c5d62;
+	box-shadow: 0px 15px 15px rgb(0 0 0 / 5%);
+}
+
+.list-inline i:hover {
+	color: #f2e7e1;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.btn-pink {
+	background: #f2e7e1;
+	padding: 10px 15px;
+	border-radius: 15px;
+	box-shadow: 0px 15px 15px rgb(0 0 0 / 10%);
+}
+
+.btn-pink:hover {	
+	background-color:#8c5d62;
+	color: white;
+} 
+
+
+
+
